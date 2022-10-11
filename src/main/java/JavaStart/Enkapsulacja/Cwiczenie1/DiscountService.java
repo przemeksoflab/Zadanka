@@ -1,4 +1,4 @@
-package JavaStart.Enkapsulacja;
+package JavaStart.Enkapsulacja.Cwiczenie1;
 
 class DiscountService {
     public double calculateDiscountPrice(Client client) {

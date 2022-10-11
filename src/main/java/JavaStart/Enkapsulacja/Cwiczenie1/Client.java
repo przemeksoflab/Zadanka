@@ -1,4 +1,4 @@
-package JavaStart.Enkapsulacja;
+package JavaStart.Enkapsulacja.Cwiczenie1;
 
 class Client {
     private String firstName;

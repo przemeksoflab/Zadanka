@@ -1,4 +1,4 @@
-package JavaStart.Enkapsulacja;
+package JavaStart.Enkapsulacja.Cwiczenie1;
 
 class DiscountApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaStart.Enkapsulacja;
+package JavaStart.Enkapsulacja.Cwiczenie1;
 
 public class ShowDataService {
     void printData(Client client, DiscountService ds) {
