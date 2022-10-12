@@ -1,12 +1,13 @@
 package JavaStart.WprowadzanieDanych.Cwiczenie2;
 
+import java.util.Random;
 import java.util.Scanner;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class OrzelReszka {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        Random rd = new Random();
 
         System.out.println("Wybierz jedną z dwóch opcji: ");
         System.out.println("0-0rzeł");
@@ -14,7 +15,7 @@ public class OrzelReszka {
 
         int choice = sc.nextInt();
 
-        int liczba = ThreadLocalRandom.current().nextInt(0, 1 + 1);
+        int liczba = rd.nextInt(0,2);
 
         if (choice == liczba) {
             System.out.println("Brawo");
