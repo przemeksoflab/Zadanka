@@ -1,14 +1,11 @@
 package JavaStart.Petle.Cwiczenie2;
 
 public class Patient {
-    String name;
-    String surname;
-    int pesel;
+    private String name;
+    private String surname;
+    private int pesel;
 
-    public Patient(String name, String surname, int pesel) {
-        this.name = name;
-        this.surname = surname;
-        this.pesel = pesel;
+    public Patient() {
     }
 
     public String getName() {
